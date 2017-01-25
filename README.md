@@ -7,4 +7,4 @@ This repository contains all lessons and assignments for the course _Essentials 
 ## Table of contents
 
 * [Lesson 01 - Basic HTML/CSS](Lessons/Assignment/01-HTML-CSS/lesson-01.md)
-* [Lesson 02 - Github](Lesson/lesson-02.md)
+* [Lesson 02 - Github](Lessons/Assignment/01-HTML-CSS/lesson-01.md)

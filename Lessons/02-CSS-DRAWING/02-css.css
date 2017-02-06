@@ -13,8 +13,8 @@
   height: 263px;
   border-radius: 100%;
   background-color: #07289F;
-  border:2px solid #B6D7D0;
-  opacity: 0.7;
+  opacity: 0.5;
+  box-shadow: 0 0 5px 8px #F7FEFD;
 }
 .oral-02{
   position: absolute;
@@ -36,7 +36,7 @@
   height: 98px;
   border-radius: 100%;
   background-color: #1B524E;
-  border:2px solid #2A685C;
+  box-shadow: inset 0 0 4px 3px rgba(59,112,100,0.50);
   opacity: 0.7;
 }
 .oral-04{
@@ -47,7 +47,7 @@
   height: 22px;
   border-radius: 100%;
   background-color: #100B15;
-  border:3px solid #44A5B8;
+  box-shadow: 0 0 5px 5px #44A5B8;
 }
 
 .oral-05{
@@ -67,6 +67,8 @@
   height: 63px;
   border-radius: 100%;
   background-color: #BA7AD3;
+  box-shadow: 0 0 12px 9px #B3E1DF;
+
 }
 .oral-07{
   position: absolute;
@@ -108,6 +110,7 @@
   background-color: #C0A427;
   border-radius: 100%;
   opacity: 0.6;
+  box-shadow: inset 0 0 8px 4px rgba(255,255,255,0.50);
 }
 .oral-11{
   position: absolute;
@@ -117,6 +120,7 @@
   height: 46px;
   background-color: #F081C8;
   border-radius: 100%;
+  box-shadow: inset 0 0 3px 4px #FFF;
 }
 .oral-12{
   position: absolute;
@@ -126,6 +130,7 @@
   height: 41px;
   background-color: #F7E077;
   border-radius: 100%;
+  box-shadow: inset 0 0 3px 4px #FFF;
 }
 .oral-13{
   position: absolute;
@@ -135,6 +140,7 @@
   height: 23px;
   background-color: #F89807;
   border-radius: 100%;
+  box-shadow: inset 0 0 3px 3px rgba(255,255,255,0.50);
 }
 .oral-14{
   position: absolute;
@@ -153,14 +159,15 @@
 	height:61px;
 	background-color:#A1ABCE;
 	border-radius: 100%;
+	box-shadow: inset 0 0 3px 1px #DBDBDB;
 }
 
 .oral-16{
 	position: absolute;
-	left:44px;
-	top:309px;
-	width:70px;
-	height:70px;
+	left:43px;
+	top:308px;
+	width:69px;
+	height:69px;
 	border-radius: 100%;
 	border:2px #4462DB solid;
 }
@@ -220,7 +227,9 @@
 	width:47px; 
 	height:47px;
 	border-radius:100%;
-	background-color: #FEE43B;
+	background-color: #FEEF8B;
+	opacity: 0.7;
+	z-index: 3;
 }
 .oral-23{
 	position: absolute;
@@ -418,7 +427,7 @@
 	height:29px;
 	border-radius:100%;
 	background-color: #77CFE0;
-	border:#E7D9B2 3px solid;
+    box-shadow: 0 0 4px 5px #E7D9B2;;
 }
 .oral-43{
 	position: absolute;

@@ -13,7 +13,7 @@ In this course you will learn basic HTML and CSS. This lesson's
 
 [Khan academy - CSS/HTML](https://www.khanacademy.org/computing/computer-programming/html-css)
 
-http://stackoverflow.com/
+[Assignment01 - CSS/HTML](https://chuyilong.github.io/IDD510-17sp/Lessons/01-HTML-CSS/assignment/01-html.html)
 
 http://styleguides.io/
 

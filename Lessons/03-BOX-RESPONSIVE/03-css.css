@@ -3,11 +3,6 @@
 	margin:0 auto;
 
 }
-.a{
-	width: 1024px;
-	height: 20px;
-	background-color: #444;
-}
 .top{
 	width: 100%;
 	font-family: Helvetica;
@@ -171,6 +166,14 @@
 	float: left;
 	padding-left: 6%;
 }
+.tubiao img{
+    width: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.skill-icon img{
+        width: 70px;
+    }
 .contact{
 	font-family: Helvetica;
 	float: left;
@@ -198,7 +201,7 @@
     font-family: Helvetica;
     margin: 4px;
 }
-@media(max-width: 600px) {
+@media(max-width: 900px) {
 
     .cloud img {
     float: left;
@@ -229,7 +232,9 @@
     	width: 100%;
     	margin: 0px;
     }
-
+    .tubiao img{
+        width: 40px;
+    }
     .contact{
     	margin: 0 auto;
     }
@@ -257,18 +262,45 @@
     	width: 40px;
     }
 }	
-@media(max-width: 350px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width: 600px) {
+    .cloud img {
+    float: left;
+    width: 580px;
+    margin-top: -90px;
+    margin-left: -21px;
+}
+    .myself{
+        float: left;
+        width: 300px;
+        margin-top: -148px;
+        margin-left: -110px;
+    }
+    .myself p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .myself h1{
+        font-size: 40px;
+    }
+    .myself h2{
+        font-size:32px;
+    }
+    .contact h5{
+        display: none;
+    }
+    .contact img{
+        float: left;
+    }
+    .email{
+        width: 30%;
+        float: left;
+    }
+    .github{
+        width: 30%;
+        float: left;
+    }
+    .phone{
+        width: 30%;
+        float: left;
+    }
 }	

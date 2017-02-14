@@ -1,0 +1,274 @@
+.body{
+	width: 96%;
+	margin:0 auto;
+
+}
+.a{
+	width: 1024px;
+	height: 20px;
+	background-color: #444;
+}
+.top{
+	width: 100%;
+	font-family: Helvetica;
+	position: relative;
+
+}
+.cloud{
+   float: left;}
+
+.cloud img{
+	width:800px;
+	float: left;
+}
+
+.myself {
+    width: 450px;
+    float: left;
+    top: 130px;
+    left: 181px;
+    position: absolute;
+}
+.myself p{
+	float: left;
+	font-size: 30px;
+	color: #6A97C5;
+	line-height: 44px;
+	margin: 0;
+}
+.myself h1{
+	float: left;
+	font-size:55px;
+	color:#6A97C5;
+	margin: 0;
+}
+.myself h2{
+	float: left;
+	font-size:40px;
+	color:#6A97C5;
+	margin: 0;
+}
+.chuyi img{
+    width: 400px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 152px;
+}
+.experience {
+    font-family: Helvetica;
+    float: left;
+    margin-left: 190px;
+}
+.experience h3{
+	float: left;
+	width: 100%;
+	color: #6A97C5;
+	font-size: 24px;
+	margin:0px;
+}
+.experience h4{
+	float: left;
+	width: 170px;
+	color: #6A97C5;
+	font-size: 18px;
+	font-weight: lighter;
+	text-align: center;
+}
+.hust2011{
+    width: 3%;
+    float: left;
+    margin-top: 10px;
+}
+.hust2011 img {
+    width: 30px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.sany2014{
+    width: 3%;
+    float: left;
+    margin-top: 10px;
+}
+.sany2014 img {
+    width: 30px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.philau2016{
+    width: 3%;
+    float: left;
+    margin-top: 10px;
+}
+.philau2016 img {
+    width: 30px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.then img {
+    opacity: 0.4;
+    width: 30px;
+    height: 28px;
+    margin-top: 41px;
+    margin-left: 5px;
+    float: left;
+}
+.experience h5{
+	float: left;
+	color: #6A97C5;
+	font-size: 20px;
+	margin: 0;
+	width: 100%;
+}
+.dot {
+    float: left;
+    margin-top: 50px;
+}
+.dot img{
+	margin: 5px;
+	float: left;
+}
+.skills{
+
+    float: left;
+    width: 100%;
+    font-family: Helvetica;
+    background-color: #F6FAFE;
+    margin-left: 190px;
+}
+.skills h3{
+	float: left;
+	width: 100%;
+	color: #6A97C5;
+	font-size: 24px;
+	margin:0px;
+}
+.tubiao{
+	width: 80%;
+}
+.ai{
+	width: 10%;
+	float: left;
+	padding-left: 10%;
+	padding-right: 6%;
+}
+.ps{
+	width: 10%;
+	float: left;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.html{
+	width: 10%;
+	float: left;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.threed{
+	width: 10%;
+	float: left;
+	padding-left: 6%;
+}
+.contact{
+	font-family: Helvetica;
+	float: left;
+	color:#6A97C5;
+	width: 100%;
+	margin-left: 190px;
+	padding-bottom: 20px;
+}
+.contact img{
+	width: 40px;
+	float: left;
+}
+.contact h3{
+	font-size: 24px;
+	color:#6A97C5;
+	font-weight: bold;
+	width: 100%;
+}
+.contact h5 {
+    font-size: 24px;
+    color: #6A97C5;
+    font-weight: lighter;
+    float: left;
+    width: 24%;
+    font-family: Helvetica;
+    margin: 4px;
+}
+@media(max-width: 600px) {
+
+    .cloud img {
+    float: left;
+    width: 774px;
+}
+
+    .myself{
+    	width:550px; 
+    }
+
+    .chuyi img {
+    width: 240px;
+    float: right;
+    margin-right: -90px;
+    margin-top: -309px;
+}
+
+    .experience{
+    	width: 100%;
+    	margin: 0px;
+    }
+
+    .experience h4{
+    	display: none;
+    }
+
+    .skills{
+    	width: 100%;
+    	margin: 0px;
+    }
+
+    .contact{
+    	margin: 0 auto;
+    }
+    .email{
+    	width: 80%;
+    	float: left;
+    	margin-left: 10%
+    }
+    .phone{
+    	width: 80%;
+    	float: left;
+    	margin-left: 10%;
+    	margin-top:10px;
+    }
+    .github{
+    	width: 80%;
+    	float: left;
+    	margin-left: 10%;
+    	margin-top:10px;
+    }
+    .contact h5{
+    	width: 80%;
+    }
+    .skill-icon img{
+    	width: 40px;
+    }
+}	
+@media(max-width: 350px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+}	

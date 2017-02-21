@@ -1,27 +1,27 @@
 .body{
 	width: 96%;
-	margin:0 auto;
+    margin: 0 auto;
 
 }
-.top{
-	width: 100%;
-	font-family: Helvetica;
-	position: relative;
-
+.top {
+    font-family: Helvetica;
+    width: 80%;
+    margin: 0 auto;
 }
-.cloud{
-   float: left;}
-
+.cloud {
+    float: left;
+    width: 65%;
+}
 .cloud img{
-	width:800px;
+	width:100%;
 	float: left;
 }
 
 .myself {
-    width: 450px;
+    width: 31%;
     float: left;
-    top: 130px;
-    left: 181px;
+    top: 15%;
+    left: 20%;
     position: absolute;
 }
 .myself p{
@@ -43,16 +43,15 @@
 	color:#6A97C5;
 	margin: 0;
 }
-.chuyi img{
-    width: 400px;
+.chuyi img {
+    width: 35%;
     float: right;
-    margin-right: 200px;
-    margin-top: 152px;
+    margin-top: 10%;
 }
 .experience {
     font-family: Helvetica;
-    float: left;
-    margin-left: 190px;
+    width: 80%;
+    margin: 0 auto;
 }
 .experience h3{
 	float: left;
@@ -117,6 +116,13 @@
 	margin: 0;
 	width: 100%;
 }
+.experience h6{
+    float: left;
+    color: #6A97C5;
+    font-size: 20px;
+    margin: 0;
+    width: 100%; 
+    display: none;}
 .dot {
     float: left;
     margin-top: 50px;
@@ -125,13 +131,14 @@
 	margin: 5px;
 	float: left;
 }
-.skills{
-
+.add{
     float: left;
-    width: 100%;
+}
+.skills{
+    width: 80%;
+    margin: 0 auto;
     font-family: Helvetica;
     background-color: #F6FAFE;
-    margin-left: 190px;
 }
 .skills h3{
 	float: left;
@@ -142,49 +149,44 @@
 }
 .tubiao{
 	width: 80%;
+    margin: 0 auto;
 }
 .ai{
-	width: 10%;
+	width: 25%;
 	float: left;
-	padding-left: 10%;
-	padding-right: 6%;
 }
 .ps{
-	width: 10%;
-	float: left;
-	padding-left: 6%;
-	padding-right: 6%;
+	width: 25%;
+    float: left;
 }
 .html{
-	width: 10%;
-	float: left;
-	padding-left: 6%;
-	padding-right: 6%;
+	width: 25%;
+    float: left;
 }
 .threed{
-	width: 10%;
-	float: left;
-	padding-left: 6%;
+	width: 25%;
+    float: left;
 }
-.tubiao img{
-    width: 60px;
-    margin-left: 5px;
-    margin-right: 5px;
+.tubiao img {
+    width: 27%;
+    margin-left: 43%;
 }
-.skill-icon img{
-        width: 70px;
-    }
-.contact{
-	font-family: Helvetica;
-	float: left;
-	color:#6A97C5;
-	width: 100%;
-	margin-left: 190px;
-	padding-bottom: 20px;
+.skill-icon img {
+    width: 26%;
 }
-.contact img{
-	width: 40px;
-	float: left;
+.contact {
+    font-family: Helvetica;
+    float: left;
+    color: #6A97C5;
+    width: 80%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-left: 10%;
+}
+.contact img {
+    width: 40px;
+    float: left;
+    margin-left: 60px;
 }
 .contact h3{
 	font-size: 24px;
@@ -197,118 +199,230 @@
     color: #6A97C5;
     font-weight: lighter;
     float: left;
-    width: 24%;
     font-family: Helvetica;
     margin: 4px;
 }
 @media(max-width: 900px) {
-
+    .top{
+    width: 90%;
+    margin: 0 auto;
+    }
+    .cloud{
+        width: 80%;
+    }
     .cloud img {
     float: left;
-    width: 774px;
+    width: 100%;
 }
 
     .myself{
-    	width:550px; 
+    	width:43%; 
     }
-
-    .chuyi img {
-    width: 240px;
+    .myself p{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .myself h1{
+        font-size: 48px;
+    }
+    .myself h2{
+        font-size: 35px;
+    }
+    
+   .chuyi img {
+    width: 42%;
     float: right;
-    margin-right: -90px;
-    margin-top: -309px;
-}
+    margin-top: -46%;}
+
 
     .experience{
-    	width: 100%;
-    	margin: 0px;
+    width: 90%;
+    color: #6A97C5;
+    margin: 0 auto;
     }
+    .experience h3 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
 
     .experience h4{
     	display: none;
     }
+    .experience h5{
+        font-size: 18px;
+    }
+
+    .experience h6 {
+    display: block;
+    float: left;
+    width: 8%;
+    margin-top: 46px;
+}
 
     .skills{
-    	width: 100%;
-    	margin: 0px;
+    width: 90%;
+    color: #6A97C5;
+    margin: 0 auto;
     }
+     .skills h3 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
     .tubiao img{
         width: 40px;
     }
     .contact{
-    	margin: 0 auto;
+    width: 90%;
+    margin-left: 5%;
     }
+    .contact h3 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    .contact h5{
+        margin-left: 10%;
+        width: 70%;
+        margin-top: 27px;
+    }
+    .contact img{
+        width: 40px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
     .email{
-    	width: 80%;
-    	float: left;
-    	margin-left: 10%
-    }
-    .phone{
-    	width: 80%;
-    	float: left;
-    	margin-left: 10%;
-    	margin-top:10px;
+        width: 50%;
+        float: left;
+        margin-left:25%;
     }
     .github{
-    	width: 80%;
-    	float: left;
-    	margin-left: 10%;
-    	margin-top:10px;
+        width: 50%;
+        margin-left:25%;
+        float: left;
     }
-    .contact h5{
-    	width: 80%;
+    .phone{
+        width: 50%;
+       margin-left:25%;
+       float: left;
     }
-    .skill-icon img{
-    	width: 40px;
-    }
-}	
+}
 @media(max-width: 600px) {
+   .top{
+    width: 95%;
+    margin: 0 auto;
+    }
+    .cloud{
+        width: 80%;
+    }
     .cloud img {
     float: left;
-    width: 580px;
-    margin-top: -90px;
-    margin-left: -21px;
+    width: 158%;
+    margin-left: -80px;
+    margin-top: -72px;
 }
-    .myself{
-        float: left;
-        width: 300px;
-        margin-top: -148px;
-        margin-left: -110px;
-    }
+
+    .myself {
+    width: 66%;
+    margin-top: -60px;
+    margin-left: -70px;}
+
     .myself p{
-        font-size: 25px;
+        font-size: 26px;
         line-height: 30px;
     }
     .myself h1{
-        font-size: 40px;
+        font-size: 48px;
     }
     .myself h2{
-        font-size:32px;
+        font-size: 35px;
     }
-    .contact h5{
+    
+   .chuyi img {
+    width: 42%;
+    float: right;
+    margin-top: -46%;}
+
+
+    .experience{
+    width: 95%;
+    color: #6A97C5;
+    margin: 0 auto;
+    }
+    .experience h3 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+    .experience h4{
         display: none;
     }
-    .contact img{
-        float: left;
-        margin: 0;
-        padding: 0;
+    .experience h5{
+        font-size: 18px;
     }
-    .email{
-        width: 30%;
-        float: left;
+    .add{
+        display: none;
+    }
+    .experience h6 {
+    display: block;
+    float: left;
+    width: 11%;
+    margin-top: 46px;
+}
+
+    .skills{
+    width: 95%;
+    color: #6A97C5;
+    margin: 0 auto;
+    }
+     .skills h3 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    .tubiao img{
+        width: 40px;
+    }
+    .contact{
+    width: 95%;
+    margin-left: 5%;
+    }
+    .contact h3 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    .contact h5{
+       display: none;
+    }
+    .contact img{
+        width: 40px;
         margin: 0;
-        padding: 0;
+        margin-top: 20px;
+
+    }
+    
+    .email{
+        width: 10%;
+        float: left;
+        margin-left: 16%;
     }
     .github{
-        width: 30%;
+        width: 10%;
         float: left;
-         margin: 0;
-        padding: 0;
+        margin-left: 16%;
     }
     .phone{
-        width: 30%;
+       width: 30%;
         float: left;
-         margin: 0;
-        padding: 0;
+        margin-left: 16%;
     }
 }	

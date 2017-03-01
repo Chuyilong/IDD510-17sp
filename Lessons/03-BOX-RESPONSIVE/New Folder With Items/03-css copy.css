@@ -8,6 +8,22 @@
     width: 80%;
     margin: 0 auto;
 }
+.cloud {
+    /*float: left;*/
+    /*width: 65%;*/
+}
+.cloud img{
+	/*width:100%;*/
+	/*float: left;*/
+}
+
+.myself {
+    /*width: 31%;*/
+    /*float: left;*/
+    /*top: 15%;*/
+    /*left: 20%;*/
+    /*position: absolute;*/
+}
 
 .myself {
     display: inline-block;
@@ -15,28 +31,37 @@
     height: 520px;
 }
 
-
+.myself p{
+	/*float: left;*/
+    /*font-size: 200%;*/
+	/*font-size: 30px;*/
+	/*color: #6A97C5;*/
+	/*line-height: 44px;*/
+	/*margin: 0;*/
+}
 .myself p {
+  
     font-size: 30px;
     color: #6A97C5;
-    margin-top: 115px;
-    width: 66%;
-    padding-left: 70px;
-    max-width: 720px;
-    float: left;
+    
+    margin-top: 130px;
+    width: 70%;
+    padding-left: 50px;
+    max-width: 740px;
 }
 .level1{
-	font-size:55px;
-
+	/*font-size:55px;*/
 }
 .level2{
-	font-size:40px;
+	/*float: left;*/
+	/*font-size:40px;*/
+	color:#6A97C5;
+	margin: 0;
 }
 .chuyi img {
     width: 35%;
     float: right;
-    margin-top: -38%;
-    position: relative;
+    margin-top: 10%;
 }
 .experience {
     font-family: Helvetica;
@@ -197,39 +222,32 @@
     width: 90%;
     margin: 0 auto;
     }
-
-
-   .myself {
-    display: inline-block;
-    background: url(images/cloud.svg) 0px 10px no-repeat;
-    background-size: 600px;
-    width: 700px;
-
+    .cloud{
+        /*width: 80%;*/
+    }
+    .cloud img {
+    /*float: left;*/
+    /*width: 100%;*/
 }
 
-
-    .myself p {
-    font-size: 30px;
-    color: #6A97C5;
-    margin-top: 75px;
-    padding-left: 62px;
-    float: left;
-    width: 450px;
+    .myself{
+    	/*width:43%; */
+    }
+    .myself p{
+        /*font-size: 26px;*/
+        /*line-height: 30px;*/
     }
     .level1{
-        font-size:45px;
-
+        /*font-size: 48px;*/
     }
     .level2{
-        font-size:30px;
+        /*font-size: 35px;*/
     }
-        
-  .chuyi img {
-    width: 39%;
+    
+   .chuyi img {
+    width: 42%;
     float: right;
-    margin-top: -54%;
-    position: relative;
-}
+    margin-top: -46%;}
 
 
     .experience{
@@ -325,38 +343,28 @@
 }
 
     .myself {
-    display: inline-block;
-    background: url(images/cloud.svg) 0px 10px no-repeat;
-    background-size: 550px;
-    width: 550px;
-    margin-left: -50px;
-    margin-top: -30px;
-    padding:0;
+    /*width: 66%;*/
+    /*margin-top: -60px;*/
+    /*margin-left: -70px;*/
 }
 
-
-    .myself p {
-    font-size: 25px;
-    color: #6A97C5;
-    margin-top: 75px;
-    padding-left: 62px;
-    float: left;
-    width: 375px;
+    .myself p{
+        /*font-size: 26px;*/
+        /*line-height: 30px;*/
     }
     .level1{
-        font-size:40px;
-
+        /*font-size: 48px;*/
     }
     .level2{
-        font-size:30px;
+        /*font-size: 35px;*/
     }
-        
-  .chuyi img {
-    width: 39%;
+    
+   .chuyi img {
+/*    width: 42%;
     float: right;
-    margin-top: -60%;
-    position: relative;
+    margin-top: -46%;*/
 }
+
 
     .experience{
     width: 95%;

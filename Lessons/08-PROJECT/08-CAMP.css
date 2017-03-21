@@ -1,0 +1,187 @@
+body{
+	width: 960px;
+	margin:0 auto;
+	background-color: #333;
+	font-family: helvetica;
+}
+.content{
+	width: 100%;
+	background-color: #FFF;
+	float: left;
+}
+header{
+	width: 940px;
+	margin: 0 auto;
+    background-color: #D8D8D8;
+    height: 220px;
+    margin-top:10px;
+    margin-bottom: 10px;}
+header img{
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+
+.header-right {
+    float: left;
+    margin-left: 100px;
+}
+.header-navigation{
+	float: left;
+    height: 40px;
+    margin-top: 20px;
+    }
+h2{
+    width: 110px;
+    float: left;
+    font-size: 20px;
+}
+h1{
+	float: left;
+	font-size: 58px;
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    margin: 0;
+}
+h4{
+	font-size: 20px;
+	margin: 20px;
+}
+.left-content{
+	width: 240px;
+	float: left;
+}
+	.special{
+		height: 410px;
+		background-color: #D8D8D8;
+		width: 220px;
+        margin: 10px;
+	}
+	.informations {
+    height: 410px;
+    background-color: #D8D8D8;
+    width: 220px;
+    margin: 10px;
+    float: left;
+}
+	.informations input {
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    margin-top: 30px;
+}
+	.submit input {
+    width: 60px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+.mid-content{
+	width: 240px;
+	float: left;
+}
+	.features-1 {
+    height: 265px;
+    background-color: #D8D8D8;
+    width: 220px;
+    margin: 10px;
+}
+	.features-2 {
+    height: 265px;
+    background-color: #D8D8D8;
+    width: 220px;
+    margin: 10px;
+}
+    .rv h4{
+    	padding-top: 50px;
+    }
+.right-content {
+    float: left;
+    width: 480px;
+}
+
+.right-content img {
+    width: 160px;
+    height: 160px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.right-content h3{
+	margin: 20px;
+	padding:0;
+}
+	.cabin {
+	    float: left;
+	    width: 220px;
+	    height: 265px;
+	    margin: 10px;
+	    background-color: #D8D8D8;
+	}
+	.tent {
+	   float: left;
+	    width: 220px;
+	    height: 265px;
+	    margin: 10px;
+	    background-color: #D8D8D8;
+	}
+	.rv-compatible {
+	   float: left;
+	    width: 220px;
+	    height: 265px;
+	    margin: 10px;
+	    background-color: #D8D8D8;
+	}
+	.hunt-fish {
+	   float: left;
+	    width: 220px;
+	    height: 265px;
+	    margin: 10px;
+	    background-color: #D8D8D8;
+	}
+	.hunt-fish h3{
+		margin: 0;
+	}
+
+    .map{
+    	margin: 10px;
+    	float: left;
+    }
+    .map img{
+    	width: 700px;
+    	height: 270px;
+    } 
+
+footer{
+	height: 220px;
+	width: 940px;
+	margin: 10px;
+	background-color: #D8D8D8;
+	float: left;
+}
+footer img{
+	width: 42px;
+	height: 42px;
+	margin-right: 50px;
+}
+.icon {
+    margin-left: 175px;
+    margin-top: 90px;
+    float: left;
+}
+.contact{
+	float: left;
+}
+.contact h3{
+	font-size: 20px;
+}
+.contact h4{
+	font-size: 14px;
+	font-weight: lighter;
+}

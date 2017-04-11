@@ -1,0 +1,19 @@
+
+header{
+	background-color: #112F57;
+}
+.hamburger{
+    	float: right;
+    }
+
+
+@media screen and (min-width: 480px) {
+	header{
+		background-color: #112F57;
+		
+	}
+	.logo{
+		float: left;
+	}
+    
+}

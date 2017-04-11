@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="23px" viewBox="0 0 81 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-font</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <text id="text-2" font-family="NanumPen, Nanum Pen Script" font-size="16" font-weight="normal" letter-spacing="0.00827586185" fill="#FFFFFF">
+            <tspan x="3.6742069" y="15">Silent Shield</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="beer-dropdown" transform="translate(-41.000000, -40.000000)" stroke="#FFFFFF">
+            <g id="Group-2-Copy" filter="url(#filter-1)" transform="translate(14.000000, 30.000000)">
+                <g id="logo-font" transform="translate(29.000000, 9.000000)">
+                    <g id="Silent-Shield-Copy-4">
+                        <use fill="#FFFFFF" fill-opacity="1" stroke-opacity="1" filter="url(#filter-3)" xlink:href="#text-2"></use>
+                        <use fill="#FFFFFF" fill-opacity="1" stroke-opacity="1" xlink:href="#text-2"></use>
+                        <use xlink:href="#text-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

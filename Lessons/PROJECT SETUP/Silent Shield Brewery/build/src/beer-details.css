@@ -1,208 +1,304 @@
+@font-face {
+   font-family:sunnyspring;
+   src: url('fonts/SunnySpringDay-OTF.otf');
+   src:url('fonts/SunnySpringDay-TTF.ttf')
+}
+
+
+
 /*header*/
-	header{
-		background-image: url(images/background-blueline.jpg);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		height: 282px;
+	header {
+    background-image: url(images/background-blackline.jpg);
+    background-size: 100%;
+    float: left;
+    width: 100%;
+}
+	.header-left{
+		float: left;
+		width: 25%;
 	}
-	.logo-image {
-	    float: left;
-	    height: 138px;
-	    padding-left: 89px;
-	    padding-top: 71px;
-}
-	.logo-font {
-	    float: left;
-	    width: 227px;
-	    padding-left: 31px;
-	    padding-top: 159px;
-	    margin-left: -207px;
-}
+	.logo {
+	    text-align: center;
+	    margin-top: 63px;
+	}
+	.logo img {
+	    width: 230px;
+	}
 	.hamburger{
 		float: right;
 		display: none;
 	}
-
-	.navigation{
+	.header-right{
 		float: right;
-		width: 891px;
-		margin-right: 257px;
+    	width: 75%;
 	}
-	.navigation h1{
-		float: left;
-		font-size: 61px;
-		
-		height: 71px;
-		color: #FFF;
+
+	.navigation {
+	    float: left;
+	    height: 130px;
 	}
-	.navigation h2{
-		float: left;
-		font-size: 44px;
-		height: 71px;
-		color: #FFF;
-		padding: 15px;
+	.navigation h2 {
+	    float: left;
+	    font-size: 44px;
+	    color: #FFF;
+	    padding-bottom: 0;
+	    margin-bottom: 0;
+	    font-family: sunnyspring;
+	    font-weight: lighter;
+	    padding-top: 40px;
+	    margin-top: 40px;
+	    margin-left: 15px;
+	    margin-right: 31px;
 	}
-	.header-right h3{
-		float: left;
+	.navigation h2:hover{
+		border-bottom: solid #B82322 4px;
+	}
+	.header-right h3 {
+	    float: left;
 	    font-family: helvetica;
 	    font-weight: lighter;
 	    font-size: 26px;
 	    color: #FFF;
-	    padding-left: 35px;
-	    margin-top: 0;
+	    padding-bottom: 60px;
+	    margin: 15px;
+	    padding-top: 7px;
 	}
+	.hamburger{
+		display: none;
+	}
+
+/*main-content*/
 	.main-img{
 		float: left;
+		margin: 0;
+		padding: 0;
 
 	}
 	.main-img img{
 		width: 100%;
+		padding:0;
+		margin: 0;
+
 	}
 	.container {
-	    background-image: url(images/background-blueline.jpg);
-	    background-repeat: no-repeat;
+	    background-image: url(images/background-blackline.jpg);
 	    background-size: 100%;
 	    width: 100%;
 	    float: left;
 	}
 	.main-content{
-		width: 1000px;
+		width: 994px;
 		margin: 0 auto;
 	}
 	.main-content h4, h5, p{
 		color: #FFF;
 	}
-	.main-content h4{
-		font-size: 44px;
-		text-align: center;
+	.main-content h4 {
+	    font-size: 64px;
+	    text-align: center;
+	    font-family: sunnyspring;
+	    font-weight: lighter;
+	    padding: 0;
+	    margin: 50px;
 	}
-	.main-content h5, p{
-		font-family: helvetica;
-		font-weight: lighter;
-		font-size: 18px;
+	.head-beer img {
+	    padding: 10px;
+	    margin: 0px;
+	    margin-left: 30px;
+	    margin-right: 30px;
 	}
-	.beer-inf{
-		float: left;
-		width: 500px;
-		padding: 10px;
+	.main-content h5, p {
+	    font-family: helvetica;
+	    font-weight: lighter;
+	    font-size: 18px;
+	    margin: 0;
+	    margin-bottom: 20px;
+	    font-weight: lighter;
 	}
-	.beer-comment{
-		text-align: center;
-		float: right;
-		width: 460px;
-		padding: 10px;
+	.beer-inf {
+	    float: left;
+	    width: 560px;
+	    padding: 10px;
 	}
-	.beer-comment h6{
-		font-size: 28px;
-		color: #FFF;
-		margin: 20px;
+	.beer-comment {
+	    text-align: center;
+	    float: right;
+	    width: 376px;
+	    padding: 10px;
+	}
+	.beer-comment h6 {
+	    font-size: 28px;
+	    color: #FFF;
+	    margin: 20px;
+	    font-family: sunnyspring;
+	    margin-bottom: 0;
+	    margin-top: 0;
 	}
 	.beer-comment p {
 	    text-align: left;
-	    width: 470px;
-	    padding-left: 30px;
+	    width: 303px;
+	    font-weight: lighter;
+	    float: left;
+	    padding-top: 25px;
+	    padding-bottom: 12px;
 	}
-	.beer-comment img{
-		float: left;
-		width: 50px;
-		padding: 10px;
+	.beer-comment img {
+	    float: left;
+	    width: 50px;
+	    padding: 10px;
+	    padding-top: 22px;
+	}
+	.star-content {
+	    margin: 20px;
 	}
 	.stars {
 	    margin: 0 auto;
-	    text-align: center;
-	    margin-left: 100px;
-	    padding-bottom: 50px;
-	    padding-top: 20px;
-}
+	    width: 250px;
+	}
 	.stars img{
 		height: 34px;
 		padding: 0px;
 	}
 	.persona-a{
 		width: 100%;
-		padding: 10px;
 	}
 	.persona-b{
 		width: 100%;
-		padding: 10px;
 	}
 	.persona-c{
 		width: 100%;
-		padding: 10px;
+	}
+	.shop-c-container {
+		width: 20%;
+		margin: 0 auto;
 	}
 	.shop-cart {
+	    float: left;
 	    background-image: url(images/button-frame.svg);
 	    background-repeat: no-repeat;
 	    background-size: 100%;
-	    height: 70px;
-	    width: 200px;
-	    margin: 0 auto;
-	    margin-top: 600px;
-	    margin-bottom: 50px;
+	    height: 2;
+	    width: 90%;
+	    margin-top: 20px;
+	    margin-bottom: 45px;
 	}
+	.shop-cart:hover{
+		background-color:red;
+	}
+
 	.shop-cart button{
 		background: none;
 	    border: none;
 	    color: #FFF;
-	    font-size: 34px;
+	    font-size: 38px;
 	    margin-left: 40px;
 	    margin-top: 4px;
+	    font-family: sunnyspring;
+	}
+	.shop-cart button:hover{
+		color: blue;
 	}
 /*footer*/
 	footer {
 	    background-color: #45474B;
-	    height: 435px;
 	    float: left;
 	    width: 100%;
+	    padding-top: 30px;
+	    padding-bottom: 50px;
 	}
-	.logo-foot{
-		padding-top: 75px;
+	.footer-left{
+	    float: left;
+	    width: 25%;
+	    margin-top: -10px;
 	}
-	.nav{
+	.nav {
+	    float: left;
+	    width: 55%;
+	}
+	.navigation-1st{
 		float: left;
-	    padding-left: 70px;
+    	width: 100%;
 	}
 	.nav h2{
 		font-size: 24px;
 		font-family: helvetica;
-		width: 200px;
 		text-align: left;
 		float: left;
 		color: #FFF;
+		font-weight: normal;
 	}
-	.nav h3{
-		font-size: 16px;
-		font-family: helvetica;
-		width: 300px;
-		text-align: left;
-		float: left;
-		font-weight: lighter;
-		color: #FFF;
+	.nav-food-f h2{
+		width: 26%;
+	}
+	.nav-beer-f h2{
+		width: 22%;
+	}
+	.nav-events-f h2{
+		width: 40%;
+	}
+	.nav h3 {
+	    font-size: 16px;
+	    font-family: helvetica;
+	    width: 310px;
+	    text-align: left;
+	    float: left;
+	    font-weight: lighter;
+	    color: #FFF;
+	    margin-top: 10px;
+	    margin-bottom: 0;
+	}
+	.nav img {
+	    float: left;
+	    margin-right: 7px;
 	}
 	.location{
 		float: left;
-		width: 200px;
+		width: 26%;
 	}
 	.contact{
 		float: left;
-		width: 200px;
+		width: 40%;
 	}
 	.about{
 		float: left;
-		width: 200px;
+		width: 22%;
 	}
 	.contact h3{
 
 	}
+	
 	.social-icon {
-	    margin-top: 130px;
-	    float: left;
-	    margin-left: 170px;
+	    padding-top: 100px;
+	    float: right;
+	    width: 19%;
 	}
-	.social-icon img{
-		width: 34px;
-		padding: 5px;
+	.social-icon img {
+	    width: 16%;
+	    padding: 2px;
 	}
 
+
+/*For Ipad*/
+@media screen and (max-width: 1024px){
+
+}
+/*For Mobile*/
+@media screen and (max-width: 600px) {
+    body {
+        
+    }
+    .hamburger{
+    	position: relative;
+        display: inline-block;
+}
+    .ham-content{
+    	display: none;
+    }
+    .navigation{
+    	display: none;
+    }
+    .hamburger:hover .ham-content{
+    	display: block;
+    }
 
 

@@ -34,8 +34,8 @@
 	}
 
 	.navigation {
-	    float: left;
-	    height: 130px;
+	   float: left;
+	   height: 130px;
 	}
 	.navigation h2 {
 	    float: left;
@@ -118,7 +118,6 @@
 	.beer-inf {
 	    float: left;
 	    width: 560px;
-	    padding: 10px;
 	}
 	.beer-comment {
 	    text-align: center;
@@ -280,10 +279,126 @@
 
 /*For Ipad*/
 @media screen and (max-width: 1024px){
+	body{
 
-}
+	}
+	.header-left{
+		float: left;
+		width: 100%;
+	}
+	.logo {
+	    margin: 30px;
+	}
+	.header-right {
+	    width: 100%;
+	}
+	.header-right h3 {
+	    width: 100%;
+	    text-align: center;
+	    padding-bottom: 40px;
+	    margin: 0;
+	}
+	.nav-container{
+		float: left;
+		width: 100%;
+	}
+	.navigation {
+	    padding-bottom: 0;
+	    height: 60px;
+	    margin: 0 auto;
+	    width: 720px;
+	    float: none;
+	}
+
+	.navigation h2 {
+	    padding-bottom: 0;
+	    margin-bottom: 0;
+	    margin-left: 20px;
+	    margin-right: 20px;
+	    padding-top: 0;
+	    margin-top: 0;
+	}
+	.main-content{
+		width: 100%;
+	}
+	.main-content h4{
+		font-size: 50px;
+		margin: 20px;
+	}
+	.head-beer img{
+		margin: 0;
+	}
+	.beer-inf {
+	    margin: 0 auto;
+	    text-align: center;
+	    float: none;
+	}
+	.beer-comment {
+	    text-align: center;
+	    width: 500px;
+	    padding: 10px;
+	    margin: 0 auto;
+	    float: none;
+	}
+	.beer-comment p{
+		width: 430px;
+	}
+	.persona-a{
+		float: left;
+	}
+	.shop-cart button {
+	    font-size: 28px;
+	    padding-bottom: 7%;
+	    padding-left: 2%;
+	    padding-top: 4%;
+	}
+
+	.footer-left{
+		width: 100%;
+	}
+	.nav {
+	    margin: 0 auto;
+	    float: none;
+	    width: 700px;
+	}
+	.footer-mid {
+	    width: 100%;
+	    float: left;
+	}
+	.nav-food-f h2 {
+	    width: 190px;
+	}
+	.nav-beer-f h2{
+		width: 190px;
+	}
+	.location{
+		width: 190px;;
+	}
+	.about{
+		width:190px;;
+	}
+	.contact{
+		width:200px;
+	}
+	.social-icon-container {
+	    float: left;
+	    width: 100%;
+	    margin-top: 30px;
+	}
+	
+	.social-icon {
+	    padding-top: 0px;
+	    width: 266px;
+	    margin: 0 auto;
+	    float: none;
+	}
+	.social-icon img {
+	    width: 40px;
+	    padding: 5px;
+	}
+
 /*For Mobile*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
     body {
         
     }

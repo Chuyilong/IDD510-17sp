@@ -73,6 +73,7 @@
 		float: left;
 		margin: 0;
 		padding: 0;
+		width: 100%;
 
 	}
 	.main-img img{
@@ -311,22 +312,23 @@
 	.shopcart-item-right h2 {
 	    float: left;
 	    width: 300px;
-	    font-size: 16px;
+	    font-size: 20px;
 	    color: #FFF;
 	    font-family: helvetica;
-	    margin: 17px;
+	    margin: 14px;
 	    font-weight: lighter;
 	    padding-top: 4px;
+	    text-align: left;
 	}
 	.shopcart-item-right h3{
 		float: right;
-	    float: right;
-	    width: 0px;
-	    font-size: 16px;
+	    width: 40px;
+	    font-size: 20px;
 	    color: #FFF;
 	    font-family: helvetica;
-	    margin: 17px;
+	    margin: 14px;
 	    font-weight: lighter;
+	    text-align: right;
 	}
 	.shop-container {
 	    float: left;
@@ -351,6 +353,8 @@
 		width: 200px;
 		text-align: left;
 		margin-bottom: 0;
+		font-size: 30px;
+		margin-top: 20px;
 
 	}
 	.subtotal h3{
@@ -358,8 +362,69 @@
 		width: 100px;
 		text-align: right;
 		margin-bottom: 0;
+		font-size: 30px;
+		margin-top: 20px;
 	}
-
+	.map{
+		margin: 0 auto;
+		width: 600px;
+		height: 400px;
+	}
+	.map img{
+		float: left;
+	    padding-top: 20px;
+	    width: 600px;
+		height: 400px;
+	}
+	.zipcode-container{
+		margin: 0 auto;
+		width: 500px;
+	}
+	.zipcode {
+		float: left;
+		width: 100%;
+	    border-bottom: 2px solid #FFF;
+	    margin-top: 20px;
+	}
+	.zipcode h2{
+		font-family: helvetica;
+		color: #FFF;
+		float: left;
+		margin-bottom: 0;
+	}
+	.zipcode input {
+	    float: right;
+	    width: 353px;
+	    height: 28px;
+	    margin-top: 19px;
+	    background: none;
+	    border: none;
+	}
+	.forheretogocontainer{
+		margin: 0 auto;
+		width: 300px;
+	}
+	.forheretogo{
+		float: left;
+		width: 300px;
+		margin-top: 20px;
+	}
+	.forheretogo h2 {
+	    float: left;
+	    font-size: 24px;
+	    width: 146px;
+	    text-align: center;
+	    color: #FFF;
+	    font-family: helvetica;
+	    border: 2px solid #FFF;
+	    padding-bottom: 5px;
+	    padding-top: 5px;
+	}
+	.forheretogo h2:hover{
+		border-color: #FFF;
+		background-color: #FFF;
+		color:#102E58;
+	}
 /*footer*/
 	footer {
 	    background-color: #45474B;
@@ -442,7 +507,41 @@
 	.social-icon img:hover{
 		opacity: 1.0;
 	}
-
+/*Food-list*/
+	.main-food img{
+		width: 100%;
+		float: left;
+	}
+	.MSA img{
+			width: 300px;
+			padding: 10px;
+			height: 216px;
+		}
+	.head-kyle img{
+		width: 200px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.food-list p{
+		text-align: center;
+		font-size: 30px;
+	}
+	.food-list h3{
+		font-size: 22px;
+		color: #FFF;
+		font-family: helvetica;
+		text-align: center;
+		width: 100%;
+		float: left;
+		margin-top: 0;
+	}
+	.food-list h4 {
+    margin: 15px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+	/*Food-Details*/
+	
 
 /*For Ipad*/
 @media screen and (max-width: 1024px){
@@ -615,6 +714,7 @@
 	.beer-list img{
 		width: 200px;
 		padding: 10px;
+		height: auto;
 	}
 	.head-kyle img{
 		width: 150px;
@@ -652,7 +752,36 @@
 		width: 220px;
 	}
 
-
+	/*food-list-pad*/
+	.MSA img{
+			width: 200px;
+			padding: 10px;
+			height: 144px;
+		}
+	.kyle-content-food img{
+		width: 200px;
+		padding: 10px;
+		height: 144px;
+	}
+	.head-kyle img{
+		width: 150px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.food-list p{
+		text-align: center;
+		font-size: 24px;
+	}
+	.food-list h3{
+		font-size: 18px;
+		margin-top: 0;
+		width: 220px;
+	}
+	.food-list h4 {
+	    margin: 15px;
+	    margin-top: 40px;
+	    margin-bottom: 0;
+	}
 /*For Mobile*/
 @media screen and (max-width: 750px) {
     body {
@@ -964,4 +1093,73 @@
 		width: 380px;
 	}
 
-
+/*beer-reserve-m*/
+	.shopcart-item-left{
+		float: left;
+		width: 123px;
+	}
+	.shopcart-item img{
+		width: 123px;
+	}
+	.shopcart-item-right{
+		float: right;
+		width: 237px;
+	}
+	.shopcart-item-right h2 {
+	    float: left;
+	    width: 150px;
+	    font-size: 18px;
+	    color: #FFF;
+	    font-family: helvetica;
+	    margin: 2px;
+	    font-weight: lighter;
+	    padding-top: 4px;
+	    text-align: left;
+	    padding-left: 10px;
+	}
+	.shopcart-item-right h3{
+		float: right;
+	    width: 40px;
+	    font-size: 18px;
+	    color: #FFF;
+	    font-family: helvetica;
+	    margin: 2px;
+	    font-weight: lighter;
+	    text-align: right;
+	}
+	.shop-container {
+	    float: left;
+	    width: 360px;
+	    padding-bottom: 5px;
+	    padding-top: 5px;
+	}
+	.shopcart-container{
+		width: 360px;
+   		margin: 0 auto;
+	}
+	.subtotal h2{
+		font-size: 20px;
+	}
+	.subtotal h3{
+		font-size: 20px;
+	}
+	.map{
+		width: 360px;
+	}
+	.map img{
+		width: 360px;
+		height: 270px;
+	}
+	.zipcode-container{
+		width: 360px;
+	}
+	.zipcode{
+		width: 360px;
+	}
+	.zipcode input{
+		width: 243px;
+	}
+	/*foor-reserve-m*/
+	.lamb h2{
+		font-size: 14px;
+	}

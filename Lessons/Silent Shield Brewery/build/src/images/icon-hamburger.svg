@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="21px" viewBox="0 0 29 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="beer-dropdown" transform="translate(-335.000000, -30.000000)" fill="#FFFFFF">
+            <g id="icon-hamburger" transform="translate(335.000000, 30.000000)">
+                <path d="M0,0 L29,0 L29,3 L0,3 L0,0 Z M0,9 L29,9 L29,12 L0,12 L0,9 Z M0,18 L29,18 L29,21 L0,21 L0,18 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

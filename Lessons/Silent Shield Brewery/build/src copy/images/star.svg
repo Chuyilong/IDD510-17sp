@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>star</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="11 17.3110352 4.53436222 19.8991869 5.06835938 13.2314453 0.538378321 7.60081306 7.4375 5.87451172 11 0 14.6689453 5.87451172 21.4616217 7.60081306 17.4656378 13.2314453 17.4656378 19.8991869"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="beer-dropdown" transform="translate(-124.000000, -805.000000)">
+            <g id="star" transform="translate(124.000000, 805.000000)">
+                <g id="Path-8">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <path d="M13.0784598,0.311830357 L0.372907366,8.77360491 L13.8037109,2.54436384 L2.6140346,10.4757813 L15.4586217,4.38465402 L3.19104353,12.8725167 L17.7724888,5.44782366 L3.2843471,17.1331752 L21.6672991,6.80839844 L3.69162946,19.1674386 L19.4224888,11.6436105 L10.8087891,18.3967634 C10.8087891,18.3967634 19.9994978,15.7544922 19.7109933,15.7544922 C19.4224888,15.7544922 14.0164062,19.2776228 14.0164062,19.2776228 L18.6450614,19.2331194" stroke="#FFE455" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

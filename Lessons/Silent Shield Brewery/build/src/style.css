@@ -440,6 +440,11 @@
 	    background: none;
 	    border: none;
 	}
+	input{
+		font-size: 30px;
+		font-family: helvetica;
+		color: #fff;
+	}
 	.forheretogocontainer{
 		margin: 0 auto;
 		width: 300px;
@@ -678,13 +683,22 @@
 		width: 100%;
 		float: left;
 	}
+	.location-click{
+		float: left;
+	}
+	.map-click{
+		float: left;
+	}
 	.location-content{
-		width: 580px;
+		width: 642px;
 		margin: 0 auto;
 		margin-top: -60px;
 	}
-	.location-content img{
-		margin: 0;
+	.location-content img {
+	    margin: 0;
+	    width: 135px;
+	    margin-left: 10px;
+	    margin-right: 10px;
 	}
 	.location-header h1{
 		text-align: center;
@@ -695,7 +709,7 @@
 		width: 100%;
 	}
 	.designated-driver{
-		width: 580px;
+		width: 642px;
     	margin: 0 auto;
 	}
 	.designated-driver h1{
@@ -716,23 +730,34 @@
 	.address-1{
 		float: left;
 		border-bottom:solid 2px #FFF; 
-		padding-top: 20px; 
-		width: 580px;
+		padding-top: 50px; 
+		width: 100%;
 	}
 	.address-2{
 		float: left;
 		border-bottom:solid 2px #FFF; 
 		padding-top: 20px;
-		width: 580px;
+		width: 100%;
 	}
 	.address-2 input{
 		width: 580px;
 	}
+	.head-location{
+		float: left;
+	    width: 100%;
+	    text-align: center;
+	}
+	.head-location h4{
+		font-size: 64px;
+	    font-family: sunnyspring;
+	    color: #fff;
+	    margin: 0;
+		}
 	.people {
 	    float: left;
 	    border-bottom: solid 2px #FFF;
-	    padding-top: 20px;
-	    width: 580px;
+	    padding-top: 50px;
+	    width: 100%;
 	    margin-bottom: 30px;
 	}
 	.dn-4 h4 {
@@ -742,16 +767,12 @@
 	    margin-top: 0;
 	    padding-bottom: 40px;
 	}
+	
 	.visit-us{
-		width: 580px;
-		float: left;
-	}
-	.visit-us h4{
-		margin: 0;
+		margin-top: 50px;
 	}
 	.visit-us img{
-		margin-left: 42px;
-    	margin-right: 42px;
+		width: 200px;
 	}
 	/*about*/
 	.big-header{
@@ -826,6 +847,14 @@
 		line-height: 1.3;
 		padding-top: 0;
 
+	}
+	.story-container {
+	    margin: 0 auto;
+	    width: 747px;
+	}
+	.story{
+		float: left;
+		width: 100%;
 	}
 	/*event-list*/
 	.calendar{
@@ -1093,13 +1122,6 @@
 	    text-align: center;
 	    float: none;
 	}
-	.food-beer-list h4 {
-	    font-size: 38px;
-	    font-family: helvetica;
-	    font-weight: normal;
-	    margin: 60px;
-	    margin-bottom: 10px;;
-	}
 	/*events-pad*/
 	.events h1{
 		font-size: 32px;
@@ -1118,7 +1140,20 @@
 		width: 530px;
 	}
 	.location-content h4{
-		font-size: 49px;
+		font-size: 50px;
+	}
+	.location-content img{
+		width: 115px;
+	}
+	.visit-us {
+	    margin-top: 40px;
+	}
+	.food-beer-list h4 {
+	    font-size: 38px;
+	    font-family: helvetica;
+	    font-weight: normal;
+	    margin: 60px;
+	    margin-bottom: 10px;;
 	}
 	.address-1{
 		width: 530px;
@@ -1656,11 +1691,15 @@
 	.location-header h1{
 		font-size: 28px;
 	}
-	.location-content h4{
-		font-size: 30px;
+	.location-content h4 {
+	    font-size: 28px;
+	    float: left;
+	    text-align: center;
+	    margin: 0;
+	    padding-top: 20px;
 	}
-	.location-content img{
-		width: 98px;
+	.location-content img {
+	    width: 87px;
 	}
 	.address-1{
 		width: 360px;
@@ -1674,15 +1713,19 @@
 	.address-1 input{
 		width: 360px;
 	}
+	.designated-driver h1{
+		font-size: 18px;
+	}
 	.designated-driver input {
 	    width: 250px;
 	}
 	.visit-us{
-		margin-top: 20px;
+		margin-top: 0;
 	}
 	.visit-us img{
 		margin-left: 20px;
 		margin-right: 20px;
+		width: 107px;
 	}
 	.dn-4 h4{
 		font-size: 14px;
@@ -1690,6 +1733,9 @@
 	.map-big img{
 		width: 100%;
 		margin-top: 20px;
+	}
+	input{
+		font-size: 18px;
 	}
 	/*about-m*/
 	.big-header h1{
@@ -1725,6 +1771,9 @@
 	.page-b img{
 		width: 360px;
 		padding: 0;
+	}
+	.story-container {
+	    width: 366px;
 	}
 	.story img{
 		width: 90px;

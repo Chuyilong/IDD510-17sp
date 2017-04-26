@@ -32,7 +32,7 @@
 	}
 
 	.navigation {
-	   float: left;
+	   /*float: left;*/
 	   height: 130px;
 	}
 	.navigation h2 {
@@ -45,20 +45,20 @@
 	    font-weight: lighter;
 	    padding-top: 40px;
 	    margin-top: 40px;
-	    margin-left: 15px;
+	    
 	    margin-right: 31px;
 	}
 	.navigation h2:hover{
 		border-bottom: solid #B82322 4px;
 	}
 	.header-right h3 {
-	    float: left;
+	    /*float: left;*/
 	    font-family: helvetica;
 	    font-weight: lighter;
 	    font-size: 26px;
 	    color: #FFF;
 	    padding-bottom: 60px;
-	    margin: 15px;
+	    /*margin: 15px;*/
 	    padding-top: 7px;
 	}
 	.hamburger{
@@ -81,6 +81,8 @@
 		width: 100%;
 		padding:0;
 		margin-bottom:-10px;
+		position: relative;
+		z-index: -1;
 
 	}
 	.container {
@@ -221,6 +223,8 @@
 	    width: 100%;
 	    padding-top: 350px;
 	    padding-bottom: 50px;
+	    position: relative;
+		z-index: -1;
 	}
 	.homepage-img h4{
 		text-align: center; 
@@ -380,13 +384,18 @@
 		width: 700px;
    		margin: 0 auto;
 	}
+	.subtotal-container{
+		margin: 0 auto;
+		width: 300px;
+	}
 	.subtotal{
 		text-align: center;
 		font-family: helvetica;
 		font-size: 20px;
 		color: #FFF;
 		width: 300px;
-		margin: 0 auto;
+		float: left;
+		margin-bottom: 20px;
 	}
 	.subtotal h2{
 		float: left;
@@ -404,17 +413,6 @@
 		margin-bottom: 0;
 		font-size: 30px;
 		margin-top: 20px;
-	}
-	.map{
-		margin: 0 auto;
-		width: 600px;
-		height: 400px;
-	}
-	.map img{
-		float: left;
-	    padding-top: 20px;
-	    width: 600px;
-		height: 400px;
 	}
 	.zipcode-container{
 		margin: 0 auto;
@@ -628,9 +626,12 @@
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	    width: 100%;
-	    padding-top: 350px;
-	    padding-bottom: 50px;
-	    background-position-y: -270px
+	    background-position-y: 30%;
+	    position: relative;
+	    z-index: -1;
+	    padding-top: 50%;
+	    padding-bottom: 2%;
+	    margin-top: -270px;
 	}
 	.event-img h4{
 		text-align: center; 
@@ -675,24 +676,28 @@
     	margin-top: 40px;
 	}
 	/*location*/
-	.map-big{
-		float: left;
-		width: 100%;
-	}
-	.map-big img{
-		width: 100%;
-		float: left;
-	}
 	.location-click{
 		float: left;
 	}
-	.map-click{
+	.map{
 		float: left;
+	    width: 100%;
+	}
+	.map iframe{
+		float: left;
+		width: 100%;
+		height: 436px;
+
+	}
+	.map-co{
+		float: left;
+	    width: 100%;
+	    position: relative;
+		z-index: -1;
 	}
 	.location-content{
 		width: 642px;
 		margin: 0 auto;
-		margin-top: -60px;
 	}
 	.location-content img {
 	    margin: 0;
@@ -862,7 +867,9 @@
 		margin: 0 auto;
 	}
 	.calendar img{
-		width: 100%;
+		width:960px;
+		padding: 0;
+
 	}
 	.MSA h4{
 		color: #FFF;
@@ -876,7 +883,39 @@
 	.head-beer h4{
 		font-size: 64px;
 	}
-
+/*img*/
+	.main-beer-detail{
+		float: left;
+		width: 100%;
+		background-color: #D8D6D6;
+		position: relative;
+		z-index: -1;
+	}
+	.main-beer-detail-p{
+		width: 600px;
+		margin: 0 auto;
+	}
+	.main-beer-detail img{
+		margin:  0 auto;
+		height: 436px;
+		width: 600px;
+	}
+	.main-beer-list{
+		float: left;
+		width: 100%;
+		background-color: #FFBA00;
+		position: relative;
+		z-index: -1;
+	}
+	.main-beer-list-p{
+		width: 600px;
+	    margin: 0 auto;
+	}
+	.main-beer-list img{
+		margin:  0 auto;
+		height: 436px;
+		width: 600px;
+	}
 /*For Ipad*/
 @media screen and (max-width: 1024px){
 	body{
@@ -1222,8 +1261,12 @@
 		font-size: 36px;
 		padding-top: 0;
 	}
+	.calendar{
+		width: 680px;
+	}
 	.calendar img{
 		width: 680px;
+		padding: 0;
 	}
 	.MSA h4{
 		font-size: 17px;
@@ -1246,6 +1289,27 @@
 		font-size: 44px;
 	  
 	}
+	.event-img {
+	    background-image: url(images/music-festival.jpg);
+	    float: left;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    width: 100%;
+	    background-position-y: 30%;
+	    position: relative;
+	    z-index: -1;
+	    padding-top: 60%;
+	    padding-bottom: 6%;
+	    margin-top: -303px;
+	}
+	.event-img h4 {
+	    text-align: center;
+	    font-size: 21px;
+	    font-family: helvetica;
+	    color: #FFF;
+	    width: 740px;
+	    margin: 0 auto;
+	}
 
 /*For Mobile*/
 @media screen and (max-width: 750px) {
@@ -1255,6 +1319,7 @@
     .hamburger{
         display: block;
         margin-bottom: -35px;
+        position: relative;
 }
     .ham-content{
     	display:none;
@@ -1262,6 +1327,7 @@
     .navigation{
     	display: none;
     }
+
     .hamburger:hover .ham-content{
     	display: block;
     }
@@ -1641,11 +1707,14 @@
 		font-size: 20px;
 	}
 	.map{
-		width: 360px;
+		float: left;
+	    width: 100%;
 	}
-	.map img{
-		width: 360px;
-		height: 270px;
+	.map iframe{
+		float: left;
+		width: 100%;
+		height: 283px;
+
 	}
 	.zipcode-container{
 		width: 360px;
@@ -1673,6 +1742,11 @@
 		width: 380px;
 		margin: 0 auto;
 		line-height: 29px;
+	}
+	.event-list-img{
+		background-size: contain;
+		position: relative;
+		z-index: -1;
 	}
 	.event-list-img h4{
 		text-align: center; 
@@ -1780,7 +1854,7 @@
 	}
 	/*event-detail-m*/
 	.calendar{
-		width: 380px;
+		width: 360px;
 	}
 	.calendar img{
 		width: 360px;
@@ -1806,4 +1880,53 @@
 	.head-2about img{
 		width: 110px;
 	}
+	/*img-m*/
+	.main-beer-detail{
+		float: left;
+		width: 100%;
+		background-color: #D8D6D6;
+	}
+	.main-beer-detail-p{
+		width: 380px;
+		margin: 0 auto;
+	}
+	.main-beer-detail img{
+		margin:  0 auto;
+		height: 300px;
+		width: 380px;
+	}
+	.main-beer-list{
+		float: left;
+		width: 100%;
+		background-color: #FFBA00;
+	}
+	.main-beer-list-p{
+		width: 380px;
+		margin: 0 auto;
+	}
+	.main-beer-list img{
+		margin:  0 auto;
+		height: 280px;
+		width: 380px;
+	}
+	.event-img {
+	    background: url(images/music-festival.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  padding: 0;
+	  margin: 0;
+	}
+	.event-img h4 {
+	    text-align: center;
+	    font-size: 18px;
+	    font-family: helvetica;
+	    color: #FFF;
+	    width: 360px;
+	    margin: 0 auto;
+	    padding-bottom: 30px;
+	    padding-top: 230px;
+	}
+
 
